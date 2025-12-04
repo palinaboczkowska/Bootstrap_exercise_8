@@ -1,0 +1,35 @@
+/* Background image for all pages */
+body {
+  background: url("src/beans.jpg") no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+}
+
+/* Overlay to lighten and blur */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.6); /* lightens */
+  backdrop-filter: blur(8px);            /* blurs */
+  z-index: -1; /* keeps overlay behind content */
+}
+
+/* Apply curly font to headings and company name */
+h1, h2, h3 {
+  font-family: 'Great Vibes', cursive;
+}
+
+/* Make company name bigger */
+header h1 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+.card-img-top {
+  height: 600px;
+  object-fit: cover;
+}
