@@ -29,7 +29,25 @@ header h1 {
   letter-spacing: 2px;
 }
 
+.section-block {
+  margin-top: 3rem; 
+  margin-bottom: 2rem; 
+}
+
 .card-img-top {
   height: 600px;
   object-fit: cover;
 }
+
+.coffee-list {
+  list-style: none; /* remove default bullets */
+  padding-left: 0;  /* remove default left padding */
+}
+
+.coffee-list li {
+  background: url("src/coffee-bean.png") no-repeat left center;
+  background-size: 20px 20px;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+
