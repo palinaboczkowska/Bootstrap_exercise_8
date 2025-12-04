@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <!-- Makes the site responsive on mobile devices -->
+  <meta name="viewport" content="width=device-width">
+  <title>Kaffeparty</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS file -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="bg-dark text-white text-center p-3">
+    <!-- Logo is clickable and links to homepage -->
+    <a href="index.html">
+      <img src="src/logo.png" alt="Kaffeparty AB logo" style="height: 80px;">
+    </a>
+    <h1>Kaffeparty AB</h1>
+  </header>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <!-- Burger menu button (appears on small screens) -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Collapsible navigation links -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <!-- ms-auto pushes the menu items to the right -->
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Hem</a></li>
+          <li class="nav-item"><a class="nav-link" href="products.html">Produkter</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">Om oss</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="container my-5">
+    <div class="row">
+      <!-- Coffee Machines -->
+      <div class="col-md-6">
+        <h2>Kaffemaskiner</h2>
+        <div class="row">
+          <!-- Example product card -->
+          <div class="col-md-6 mb-4">
+            <div class="card">
+              <img src="https://picsum.photos/200/150" class="card-img-top" alt="Maskin">
+              <div class="card-body">
+                <h5 class="card-title">Modell X100</h5>
+                <p class="card-text">Espressomaskin av hög kvalitet.</p>
+                <p class="text-primary fw-bold">Pris: 4990 kr</p>
+              </div>
+            </div>
+          </div>
+          <!-- Repeat for more machines -->
+        </div>
+      </div>
+
+      <!-- Kaffeparty -->
+      <div class="col-md-6">
+        <h2>Kaffeparty</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <h4>För företag</h4>
+            <p>Vi erbjuder skräddarsydda kaffeparty-event för företag där medarbetare får prova olika kaffesorter och skapa gemenskap kring kaffeupplevelsen.</p>
+          </div>
+          <div class="col-md-6">
+            <h4>För privatpersoner</h4>
+            <p>Privatpersoner kan boka vårt populära kaffeparty för fest eller familjesammankomst och njuta av kaffe och choklad i en social miljö.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center p-3 mt-5">
+    <p>&copy; 2025 Kaffeparty AB | Webmaster: Palina Boczkowska</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
