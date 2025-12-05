@@ -10,6 +10,7 @@
     <!-- Custom CSS file -->
     <link href="style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -25,11 +26,12 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-transparent text-white shadow-sm">
         <div class="container">
-            <!-- Burger menu button (appears on small screens) -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <!-- Burger menu button aligned right -->
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <!-- Collapsible navigation links -->
+
+            <!-- Navigation links -->
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Hem</a></li>
@@ -50,8 +52,9 @@
             in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
             cupidatat non proident,
             sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <h2>Kontakt</h2>
-        <div class="row">
+
+        <div class="row section-block">
+            <h2>Kontakt</h2>
             <!-- CEO -->
             <div class="col-md-6 mb-4">
                 <div class="card">
@@ -59,7 +62,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Anna Svensson - VD</h5>
                         <p>+46 70 123 45 67</p>
-                        <p>annasvensson@kaffeparty.se</p>
+                        <p class="brown">annasvensson@kaffeparty.se</p>
                     </div>
                 </div>
             </div>
@@ -70,7 +73,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Johan Karlsson - HR-ansvarig</h5>
                         <p>+46 70 987 65 43</p>
-                        <p>johankarlsson@kaffeparty.se</p>
+                        <p class="brown">johankarlsson@kaffeparty.se</p>
                     </div>
                 </div>
             </div>
@@ -84,6 +87,9 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JS -->
+    <script src="script.js"></script>
+
 </body>
 
 </html>

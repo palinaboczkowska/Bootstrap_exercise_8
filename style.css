@@ -1,5 +1,6 @@
 /* Background image for all pages */
 body {
+    font-family: 'Montserrat', sans-serif;
   background: url("src/beans.jpg") no-repeat center center fixed;
   background-size: cover;
   position: relative;
@@ -49,5 +50,32 @@ header h1 {
   background-size: 20px 20px;
   padding-left: 30px;
   margin-bottom: 10px;
+}
+
+.brown {
+  color: #6f4e37;
+  font-weight: bold;
+}   
+
+.nav-link {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #6f4e37;
+}
+
+
+
+.nav-link.active::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #6f4e37;
+  transition: width 0.3s ease;
 }
 
