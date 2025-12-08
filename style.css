@@ -20,7 +20,7 @@ body::before {
 }
 
 /* Apply curly font to headings and company name */
-h1, h2, h3 {
+h1, h2 {
   font-family: 'Great Vibes', cursive;
 }
 
@@ -57,7 +57,6 @@ header h1 {
   border-radius: 0;
 }
 
-
 .section-block {
   margin-top: 3rem; 
   margin-bottom: 2rem; 
@@ -70,24 +69,23 @@ img {
 }
 
 .card {
+  height: 600px;
   border: 1px solid #ff6600;
   border-radius: 12px;
   overflow: hidden;
 }
 
-/* Убираем отдельную рамку у изображения */
 .card-img-top {
   border: none;
   border-radius: 0;
-  height: 600px;
+  height: 300px;
   object-fit: cover;
 }
 
-
-.card-img-top {
-  height: 600px;
-  object-fit: cover;
+.about-card {
+  height: 450px;
 }
+
 
 .coffee-list {
   list-style: none; /* remove default bullets */
@@ -129,7 +127,7 @@ img {
 .contact-info {
   border: 1px solid #ff6600;
   border-radius: 12px;
-  background-color: #fdfdfd;
+  background-color: transparent;
   margin-top: 2rem;
 }
 
