@@ -133,6 +133,16 @@ img {
   margin-top: 2rem;
 }
 
+.btn-warning {
+  background-color: #ff6600;
+  border: none;
+  font-weight: bold;
+}
+
+.btn-warning:hover {
+  background-color: #e65c00;
+}
+
 
 footer {
   border-top: 1px solid #ff6600;
